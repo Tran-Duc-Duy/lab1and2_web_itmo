@@ -1,0 +1,13 @@
+/* about me */
+.about-box{
+    margin: 120px 0 0 0 ;
+    padding: 100px 0;
+    background-color:#F6F6F6;
+    
+}
+.about__items{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}

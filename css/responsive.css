@@ -1,0 +1,52 @@
+
+
+
+/* reponsive */
+/* Mobile: width < 740px */
+@media only screen and (max-width: 740px) {
+    .menu-list{
+        /* display: block;
+        height: auto; */
+        font-size: 0.9rem;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .col-3{
+        width: 100%;
+    }
+    .skill-item img{
+        width: 15rem;
+    }
+    .hero__name{
+        position: relative;
+    }
+    .app-footter__social-list{
+        width: 80%;
+    }
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-3{
+        width: 40%;
+    }
+    .hero__name-box{
+        width: 100%;
+        text-align: center;
+    }
+    .hero__name{
+        position: relative;
+    }
+    .skill-item img{
+        width: 100%;
+    }
+    .app-footter__social-list{
+        width: 65%;
+    }
+}

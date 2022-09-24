@@ -1,0 +1,23 @@
+/* skills */
+.checked {
+    color: black;
+}
+.col-3{
+    width: 25%;
+}
+.skill-item img{
+    width: 9rem;
+}
+span {
+    color:#E5E5E5;
+}
+
+.skill-item_des{
+    height: 5rem;
+}
+.skill-box{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+
+}

@@ -1,0 +1,30 @@
+/* menu style */
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    /* bo dau cham */
+    /* margin: 3rem auto; */
+    padding: 2rem 0 0 0 ;
+}
+.menu-list__item,
+.menu-list__item__link{
+    text-decoration: none;
+    color: #828282;
+    line-height: 2.2rem;
+}
+.page-checked{
+    color: #000;
+    font-weight: bold;
+}
+/* .menu-list__item{
+    display: inline-block;
+    margin-right: 10%;
+} */
+
+hr{
+    margin: 0 ;
+    padding: 0;
+}

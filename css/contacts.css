@@ -1,0 +1,22 @@
+section.contacts{
+    margin-bottom: 8rem;
+}
+
+/* contacts */
+footter{
+    margin-top: 1rem;
+    margin: 0;
+}
+.app-footter__social-list{
+    padding: 0;
+    margin: 0 auto;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-footter__social-list-item .fa::before{
+    font-size:4rem;
+    color: #000;
+}

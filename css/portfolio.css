@@ -1,0 +1,14 @@
+.portfolio-item{
+    margin:5rem 0;
+    padding-bottom: 5rem;
+    
+}
+.portfolio-item__link{
+    /* text-decoration: none; */
+    color: #000;
+    line-height: 2.2rem;
+}
+.portfolio-item img{
+    border: 2px solid #000 ;
+    margin-bottom: 4.5rem;
+}
